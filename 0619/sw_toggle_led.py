@@ -25,7 +25,7 @@ while True:
         
     if pre_switch!=switch:
         mylcd.lcd_clear()
-        if swich==0:
+        if switch==0:
             mylcd.lcd_display_string("LED ON",1)
             GPIO.output(LED, GPIO.HIGH)
         
